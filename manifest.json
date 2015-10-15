@@ -3,8 +3,9 @@
   "version": "1.0",  
   "description": "Pick the helped url and save to the database",
   "browser_action": {
-    "default_icon": "images/url_icon.gif",
-	"popup":"popup.html"
+	 "default_title": "Helped Urls",
+    "default_icon": "images/url_icon.png",
+	"default_popup":"popup.html"
   },
   
   "permissions": ["tabs"],
